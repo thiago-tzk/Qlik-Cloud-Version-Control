@@ -118,14 +118,14 @@ MEASURES
 {"qInfo":{"qId":"vbSMHcs","qType":"measure"},"qMeta":{"title":"Sales","description":"","tags":[],"_resourcetype":"app.object","_objecttype":"measure","id":"vbSMHcs","approved":false,"published":false,"owner":"00u1epdi06RAmGhrs5d7","ownerId":"T-vKxpxzYrGCw-iPbLXE6miKjU9wexE6","createdDate":"2024-12-02T09:08:53.497Z","modifiedDate":"2024-12-02T09:08:53.497Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
 
 VARIABLES
-{"qName":"name","qDefinition":"employees","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"48d6a7ea-915c-4edc-a80a-776c03249cb3","qType":"variable"},"qData":[],"qIsScriptCreated":true}
 {"qName":"matches","qDefinition":"0","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"c53fe4b9-2565-4b88-bfc1-933023dd7838","qType":"variable"},"qData":[],"qIsScriptCreated":true}
-{"qName":"currentName","qDefinition":"employees","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"f248cd60-8fd8-4f29-b68c-a2e7506729cd","qType":"variable"},"qData":[],"qIsScriptCreated":true}
 {"qName":"index","qDefinition":"0","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"8e5feb87-6c67-4785-b8e8-28d90a0fa373","qType":"variable"},"qData":[],"qIsScriptCreated":true}
-{"qName":"vNumCustomers","qDefinition":"count(distinct CustomerID)","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"aea90348-d766-411e-acf6-8f5b957349ec","qType":"variable"},"qData":[]}
+{"qName":"name","qDefinition":"employees","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"48d6a7ea-915c-4edc-a80a-776c03249cb3","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"currentName","qDefinition":"employees","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"f248cd60-8fd8-4f29-b68c-a2e7506729cd","qType":"variable"},"qData":[],"qIsScriptCreated":true}
 {"qName":"vSetAnalysis","qDefinition":"1","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"e0b28ea6-68f8-4169-87bc-f8e505ebc7a1","qType":"variable"},"qData":[]}
-{"qName":"vTopNumber","qDefinition":"10","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"28293818-d262-45e8-b582-d909e34506d6","qType":"variable"},"qData":[]}
+{"qName":"vNumCustomers","qDefinition":"count(distinct CustomerID)","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"aea90348-d766-411e-acf6-8f5b957349ec","qType":"variable"},"qData":[]}
 {"qName":"vSetA1","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"96d0ca7a-9889-49e6-aec8-22aa6e0d44a8","qType":"variable"},"qData":[]}
+{"qName":"vTopNumber","qDefinition":"10","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"28293818-d262-45e8-b582-d909e34506d6","qType":"variable"},"qData":[]}
 {"qName":"vTotalCustomers","qDefinition":"=count(distinct ALL CustomerID)","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"d091bc09-a8ce-4535-b131-24905e0f7041","qType":"variable"},"qData":[]}
 
 FIELDS
